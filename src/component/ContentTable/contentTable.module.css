@@ -1,0 +1,55 @@
+.dataTableContainer {
+    @apply h-full w-full bg-gray-800 rounded-lg overflow-hidden text-white px-3;
+  }
+
+.dataTable .MuiDataGrid-root {
+    @apply bg-gray-900;
+  }
+  
+.dataTable .MuiDataGrid-columnHeaders {
+    @apply bg-gray-800 border-opacity-0;
+  }
+  
+.headerCell {
+    @apply text-yellow-700 font-bold bg-gray-950;
+  }
+  
+.MuiDataGrid-root .MuiDataGrid-cell {
+    @apply text-white border-b border-red-400;
+  }
+  
+.eyeButton {
+    @apply text-purple-300;
+  }
+  
+.actionButton {
+    @apply text-green-400;
+  }
+
+.actions {
+    @apply flex;
+  }
+
+  .row {
+    @apply flex flex-row;
+  }
+  
+  .table-container {
+    @apply p-4;
+  }
+  
+  .table {
+    @apply w-full border-collapse bg-gray-900 text-white rounded-lg overflow-hidden;
+  }
+  
+  .table-header {
+    @apply bg-gray-800 text-green-300 p-3 text-left;
+  }
+  
+  .table-row {
+    @apply bg-gray-900 border-b border-gray-700;
+  }
+  
+  .table-actions {
+    @apply flex gap-2;
+  }

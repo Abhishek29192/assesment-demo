@@ -1,0 +1,68 @@
+.modalOverlay {
+    @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50;
+  }
+
+
+.modal {
+    @apply bg-gray-800 text-white p-6 rounded-lg w-[40%];
+  }
+  
+.modalHeader {
+    @apply flex justify-between items-center mb-4;
+  }
+  
+.modalTitle {
+    @apply text-3xl;
+  }
+
+.closeButton {
+    @apply text-green-400 text-lg cursor-pointer;
+  }
+
+.productName {
+    @apply font-normal mb-4;
+  }
+
+.modalBody {
+    @apply flex flex-col gap-4;
+  }
+  
+.modalRow {
+    @apply flex flex-row justify-between;
+  }
+  
+.formGroup {
+    @apply flex flex-col w-full;
+  }
+
+.label {
+    @apply text-sm font-semibold mb-1;
+  }
+
+.input {
+    @apply w-[90%] bg-gray-700 p-2 rounded-lg text-white border-none;
+  }
+
+.input:checked + .slider {
+    @apply bg-green-500;
+  }
+  
+.input:checked + .slider:before {
+    @apply translate-x-6;
+  }
+  
+.switch input {
+    @apply hidden;
+  }
+  
+.modalFooter {
+    @apply flex justify-end mt-4 gap-4;
+  }
+
+.cancelButton {
+    @apply text-green-400 cursor-pointer;
+  }
+  
+.saveButton {
+    @apply bg-green-600 text-white p-2 rounded-lg cursor-pointer;
+  }

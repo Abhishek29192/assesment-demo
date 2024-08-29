@@ -1,0 +1,28 @@
+.navbar {
+    @apply flex items-end py-2 px-4 text-white w-full justify-end;
+  }
+  
+.left {
+    @apply flex-1;
+  }
+  
+.right {
+    @apply flex items-center justify-center;
+  }
+  
+.text {
+    @apply mx-2 text-sm;
+  }
+
+.iconbutton {
+    @apply text-white text-xl ml-4;
+  }
+  
+.switch {
+    @apply relative inline-block w-12 h-6 mx-2;
+  }
+  
+.switch input {
+    @apply hidden;
+  }
+  
